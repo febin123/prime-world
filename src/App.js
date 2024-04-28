@@ -1,8 +1,8 @@
 
 import './App.css';
 import {BrowserRouter, Routes,Route}from 'react-router-dom'
-import Home from './Compoenent/Home';
 import Checkout from './Compoenent/Checkout';
+import Home from './Compoenent/Home';
 function App() {
   return (
     <BrowserRouter>
