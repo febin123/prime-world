@@ -3,6 +3,7 @@ import '../Styles/Checkout.css'
 import { useStateValue } from "./StateProvider";
 import CheckoutProduct from "./CheckoutProduct";
 import Header from './Header';
+import Subtotal from './Subtotal';
 const Checkout = () => {
   const [{ basket, user }, dispatch] = useStateValue();
 
@@ -35,7 +36,7 @@ const Checkout = () => {
     </div>
 
     <div className="checkout__right">
-      {/* <Subtotal /> */}
+      <Subtotal/>
     </div>
   </div>
   </>
